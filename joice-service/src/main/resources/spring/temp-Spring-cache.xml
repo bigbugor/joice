@@ -13,7 +13,7 @@
     	<constructor-arg>
     		<list>
     			<bean class="redis.clients.jedis.JedisShardInfo">
-    				<constructor-arg name="host" value="168.33.131.55" />
+    				<constructor-arg name="host" value="localhost" />
     			</bean>
     		</list>
     	</constructor-arg>

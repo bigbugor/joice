@@ -10,7 +10,7 @@
             <property name="suppressAllComments" value="true"/>  
         </commentGenerator>  
         <!-- 数据库连接信息 -->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://168.33.131.164:3306/joice" userId="root" password="huhui"/>  
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://168.33.131.164:3306/joice" userId="root" password="root"/>  
         <javaTypeResolver>  
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>  

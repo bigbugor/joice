@@ -26,5 +26,16 @@ public class DecryptDruidDataSource extends DruidDataSource {
         }
         super.setPassword(this.password);
     }
+    
+    
+    
+    public static void main (String args[]) throws Exception{
+    	
+    	String sds =ConfigTools.encrypt("root");
+    	System.out.println(sds);
+    	String pwd =ConfigTools.decrypt(sds);
+    	System.out.println(pwd);
+    	
+    }
 
 }
